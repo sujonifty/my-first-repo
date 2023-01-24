@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+
+	<style type="text/css">
+		
+		body{
+			background-color: lightblue; 
+			
+
+		}
+		h2{
+			text-align: center;
+			font-size:50px;
+		}
+		form{
+			text-align: center;
+			margin:5px;
+			padding:5px;
+			font-size:30px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h2 align="centre">Student Regestration Form</h2>
+	<form action="Insertdata.php" method="post">
+
+  			Student Name:<input type="text" name="sname">
+  			<br>
+  			Student ID:<input type="text" name="id">
+      		<br>
+  			Class Name: 
+  			<select name="Class">
+  				<option>One</option>
+  				<option>Two</option>
+  				<option>Three</option>
+  				<option>Four</option>
+  				<option>Five</option>
+  				<option>Six</option>
+  				<option>Seven</option>
+  				<option>Eight</option>
+  				<option>Nine</option>
+  				<option>Ten</option>
+  			</select>
+  			<br>
+  			Batch: 
+  			<select name="batch">
+  				<option>Morning</option>
+  				<option>Day</option>
+  			</select>
+      		<br>
+      		Email Address:<input type="text" name="email"><br>
+     		 Contact Number:<input type="text" name="contact"><br>
+  			<input type="submit" name="submit">
+
+
+	</form>
+
+</body>
+</html>

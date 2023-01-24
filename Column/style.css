@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	border:0;
+}
+.maindiv>.child img{
+	width:450px;
+	height:200px;
+}
+.maindiv{
+	width: 1800px;
+	margin:0 auto;
+} 
+.child{
+	float:left;
+	width:450px;
+	margin-right:20px; 
+	padding:20px;
+	border:2px solid;
+	box-shadow:2px 2px 2px 2px #414246ed;
+}
+.child h2{
+	color:blue;
+}
+.child p{
+	color:#444444;
+	text-align:justify;
+}
+.child a{
+	text-decoration:none;
+	background:black;
+	display:block;
+	color:white;
+	text-align:center;
+	padding:8px;
+	transition:all 0.1s ease;
+	margin-top:5px;
+
+}
+.child a:hover{
+	background:blue;
+	color:brown;
+	font-weight:bold;
+}
